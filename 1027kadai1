@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int k;
+	int a;
+	printf("k: ");
+	scanf_s ("%d" , &k);
+	printf("a:");
+	scanf_s("%d", &a);
+
+	printf("k+a=%d", k + a);
+	return 0;
+}
